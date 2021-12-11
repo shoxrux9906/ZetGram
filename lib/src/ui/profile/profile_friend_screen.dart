@@ -45,6 +45,26 @@ class _ProfileFriendScreenState extends State<ProfileFriendScreen> {
                     ),
                   ],
                 ),
+                Container(
+                  padding: EdgeInsets.only(
+                    top: 35,
+                    left: 25,
+                    right: 25,
+                  ),
+                  child: Row(
+                    children: [
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(86),
+                        child: Image.asset(
+                          "assets/images/profile_friend.png",
+                          width: 86,
+                          height: 86,
+                          fit: BoxFit.cover,
+                        ),
+                      )
+                    ],
+                  ),
+                ),
               ],
             ),
           ),
