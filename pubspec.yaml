@@ -1,0 +1,56 @@
+name: zet_gram
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6
+  flutter_svg: ^0.21.0
+  rxbus: ^0.0.2
+  image_picker: ^0.7.5
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  rxdart: ^0.20.0
+  dotted_border: ^2.0.0
+  shimmer: ^2.0.0
+  percent_indicator: ^3.4.0
+  intl: ^0.17.0
+  flutter_staggered_grid_view: ^0.4.1
+  flutter_slidable: ^0.6.0
+  flutter_switch: ^0.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/icons/
+     - assets/menu/
+     - assets/explore/
+
+
+  fonts:
+    - family: NunitoSans
+      fonts:
+        - asset: assets/fonts/NunitoSans/NunitoSans-Regular.ttf
+        - weight: 400
+        - asset: assets/fonts/NunitoSans/NunitoSans-Bold.ttf
+        - weight: 700
+          style: normal
+
+
